@@ -1,0 +1,7 @@
+def find_average(nums):
+    sum = 0
+
+    for num in nums:
+        sum = sum + num
+
+    return sum / len(nums)
